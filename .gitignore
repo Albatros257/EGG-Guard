@@ -205,3 +205,48 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folder
+venv/
+env/
+.venv/
+
+# Environment variable files
+.env
+.env.*
+
+# Firebase service account key
+serviceAccountKey.json
+
+# Render config (ถ้าใช้ render.yaml และมีข้อมูลลับ)
+render.yaml
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Database files (ถ้าใช้ SQLite)
+*.db
+
+# Other system files
+.DS_Store
+Thumbs.db
+# ไฟล์ environment variables
+.env
+.env.*
+
+# Firebase service account key
+serviceAccountKey.json
+
+# Render config file (ถ้ามีข้อมูลลับ)
+render.yaml
